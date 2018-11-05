@@ -1,3 +1,19 @@
+var a = 1;
+console.log(typeof a)
+
+var b = "Coding is fun";
+console.log(typeof b)
+
+var c = true;
+console.log(typeof c)
+
+var d = null;
+console.log(typeof d)
+
+var e = 333;
+e = undefined;
+console.log(typeof e)
+
 var myCurrentAge = 16;
 
 if (myCurrentAge >= 25) {
