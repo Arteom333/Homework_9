@@ -21,3 +21,8 @@ if (myCurrentAge >= 25) {
 } else {
     console.log("I'm under 25 years old");
 }
+
+var announce = (myCurrentAge >= 25) ? "I'm over 25 years old" :
+    (myCurrentAge < 25) ? "I'm over 25 years old" :
+console.log(announce);
+
